@@ -1,67 +1,49 @@
 import sys
 from module.eqnc import *
 from colorama import Fore
-from module.Cidr_to_ip import *
 
-def start():
+
+
+#run banner 
+baner()      
+#ask for option
+get_rec_type()
+#number of option
+format = get_rec_type.select #first entered number
+
+
+if format == 1:
+    format_type="domain"
+elif format== 2:
+    format_type="ip"
+elif format== 3:
+    sys.exit("tnx")
     
-    baner()
-    get_rec_type()
-    format = get_rec_type.select
-    if format == 1:
-        format_type="domain"
-    elif format== 2:
-        format_type="prefix"
-    elif format== 3:
-        format_type="ip"
-    elif format== 4:
-        sys.exit("tnx")
+#get target and target type for ask    
+getTarget(format_type)
+#recived target
+value_to_search = getTarget.out
+
+
+
+if format_type=="domain":
+    domain(search=value_to_search)
+
+elif format_type=="ip":
+    ifip(value_to_search)
+    print(Fore.GREEN+"Asn: ",ifip.asns)
+    print("Cidr: ",ifip.perfix)
+    print("Company description: ",ifip.compayName)
+    print("==============")
+    wider = input("Do you need a wider scan?(y/n): ")
+    wider = wider.lower()
+    if wider == "y":
+        asnToPerfix(ifip.asns)
     else:
-        start()
+        sys.exit()
+    # perfix(search=ifip.perfix)
+
         
-        
-    get_value(format_type)
-    value_to_search = get_value.out
-
-
-
-
-
-    # ip_file = open("./list/ip.txt","w+")
-    if format_type=="domain":
-        domain(search=value_to_search)
-
-
-
-
-    elif format_type=="prefix":
-        perfix(search=value_to_search)
-
-
-
-    
-    # elif format_type=="asn":
-    #     pass
-        
-    
-    
-    
-    
-    
-    elif format_type=="ip":
-        ifip(value_to_search)
-        print(ifip.asns)
-        print("==============")
-        perfix(search=ifip.perfix)
-        print("ok in cidr-to-iplist txt")
-
-            
         
     
             
-    else:
-        ifother(format_type,value_to_search)
-        if ifother.status =="error":
-            print("I Cant Find Your Query!  , Please Try again")
-            sys.exit()
-start()

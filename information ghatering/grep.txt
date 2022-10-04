@@ -1,0 +1,1 @@
+cat prefix.txt | grep compname | cut -d "F" -f 1

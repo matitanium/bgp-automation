@@ -4,7 +4,11 @@ from platform import platform
 import os
 import requests
 import json
-from module.Cidr_to_ip import *
+
+
+
+
+
 
 
 def baner():
@@ -27,46 +31,116 @@ def baner():
         
          
         1 = information ghaternig by Company Name!...
-        2 = Cidr/prefix to ip list...
-        3 = Search by ip... 
-        4 = Exit          
+        2 = Search by ip... 
+        3 = Exit          
      """)
 
-        
-def get_value(formato):
-    a = formato
-    if a == "asn":
-        asn = input("[+] Enter Your ASN to Search... Examlpe(0000) =>")
-        get_value.out = asn
-    elif a == "ip":
-        ip = input("[+] Enter Your IP to Search... Examlpe(0.0.0.0) =>")
-        get_value.out = ip
-    elif a == "prefix":
-        perfix = input("[+] Enter Your Cidr/Perfix to Convert... Examlpe(0.0.0.0/24) => ")
-        get_value.out = perfix
-    elif a == "domain":
-        dom = input("[+] information ghaterin[*] #_# Enter Company Name to Search... Examlpe(microsoft) => ")
-        get_value.out = dom
 
 
 
+
+
+
+# get search type
 def get_rec_type():
     try:
-        request_type = int(input(Fore.MAGENTA+"[+] 1-5 =>"))
+        request_type = int(input(Fore.MAGENTA+"[+] 1-3 =>"))
     except :
-        print("just select 1-5!! - by :D")
+        print("just select 1-3!! - by :D")
         sys.exit()
-    if 0<int(request_type)<6:
+    if 0<int(request_type)<4:
         pass
     else:
-        print("just select 1-5!! - by :D")
+        print("just select 1-3!! - by :D")
         sys.exit()
+    
+    #number of selected option
     get_rec_type.select = request_type
 
 
 
+
+
+
+
+
+
+#get target        
+def getTarget(type2):
+    if type2 == "ip":
+        ip = input("[+] Enter Your IP to Search... Examlpe(0.0.0.0) =>")
+        getTarget.out = ip
+    elif type2 == "domain":
+        dom = input("[+] information ghaterin[*] #_# Enter Company Name to Search... Examlpe(microsoft) => ")
+        getTarget.out = dom
+
+
+
+
     
     
+
+ 
+    
+
+
+#if selected 4 search by ip
+def ifip(ip):
+    api = ("https://api.bgpview.io/ip/{i}").format(i=ip)
+    print("======================================")
+    
+    
+    string_output = requests.get(api).text
+    json_output  = json.loads(string_output)
+    
+    #read json status for find
+    status = json_output["status"]
+    if status =="error":
+        print("I Cant Find Your Query!  , Please Try again")
+        sys.exit()
+        
+        
+    # ASN
+    ifip.asns = json_output["data"]["prefixes"][0]["asn"]["asn"]
+    #company name 
+    ifip.compayName = json_output["data"]["prefixes"][0]["asn"]["description"]
+    #perfix
+    ifip.perfix= json_output["data"]["prefixes"][0]["prefix"]
+    
+
+
+
+
+
+
+
+
+
+
+#convert asn to cidr list
+def asnToPerfix(asn):
+    url = "https://api.bgpview.io/asn/{a}/prefixes".format(a=asn)
+    request = requests.get(url).text
+    #convert request plain to json 
+    json_request = json.loads(request)
+        #read json status for find
+    status = json_request["status"]
+    if status =="error":
+        print("I Cant Find Your Query!  , Please Try again")
+        sys.exit()
+    perfixes = json_request["data"]["ipv4_prefixes"]
+    for i in perfixes:
+        print(i["prefix"],": ",i["description"])
+
+
+
+
+
+
+
+
+
+
 def ifdomin(domain):
     api = ("https://api.bgpview.io/search?query_term={dom}#results-v4").format(dom=domain)
     print("======================================")
@@ -77,46 +151,6 @@ def ifdomin(domain):
     ifdomin.ip = json_output["data"]["ipv4_prefixes"]
  
  
- 
-    
-
-
-#if selected 4 search by ip
-def ifip(ip):
-    api = ("https://api.bgpview.io/ip/{i}").format(i=ip)
-    print("======================================")
-    string_output = requests.get(api).text
-    json_output  = json.loads(string_output)
-    status = json_output["status"]
-    if status =="error":
-        print("I Cant Find Your Query!  , Please Try again")
-        sys.exit()
-    ifip.asns = json_output["data"]
-    ifip.perfix= json_output["data"]["prefixes"][0]["prefix"]
-    
-
-
-
-
-def ifother(typee,value):
-    api = ("https://api.bgpview.io/{format}/{value}").format(format=typee,value=value)
-    print("======================================")
-    string_output = requests.get(api).text
-    json_output  = json.loads(string_output)
-    ifother.status = json_output['status']
-    print(json_output)
-     
-
-
-#convert perfix to ip list
-def perfix(search):
-    cidr = Convert_ip(search)
-    ip_file = open("./Cidr-to-ip/Cidir-to-ip.txt","w+")
-    for i in cidr:
-        ip_file.write(str(i)+"\n")
-    print(Fore.GREEN+"succesfuly convert. You can see output in Cidr-to-ip folder")
-
-
 
 #search by company name
 def domain(search):
@@ -150,4 +184,4 @@ def domain(search):
         print(Fore.GREEN+"succesfully scanning... result in information ghathering directory")
             
 
-   
+

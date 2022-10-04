@@ -68,3 +68,133 @@
  asns for 185.188.104.1 search 
  
  
+ asns for NETBLK-WAL-MART search 
+ 
+ 
+ asns for google search 
+ 
+ 139070 For this company=> Google Asia Pacific Pte. Ltd.
+139190 For this company=> Google Asia Pacific Pte. Ltd.
+15169 For this company=> Google LLC
+16550 For this company=> Google LLC
+16591 For this company=> Google Fiber Inc.
+19448 For this company=> Google Fiber Inc.
+19527 For this company=> Google LLC
+22859 For this company=> Google LLC
+24424 For this company=> Beijing Gu Xiang Information Technology Co.,Ltd.
+264324 For this company=> GOOGLE BRASIL INTERNET LTDA
+26684 For this company=> Google LLC
+26910 For this company=> Google LLC
+32381 For this company=> Google Access LLC
+36039 For this company=> Google LLC
+36384 For this company=> Google LLC
+36385 For this company=> Google LLC
+36492 For this company=> Google, LLC
+36987 For this company=> Google Kenya
+394507 For this company=> Google LLC
+394639 For this company=> Google LLC
+395973 For this company=> Google LLC
+396982 For this company=> Google LLC
+45566 For this company=> AS number for Google Corporate Network in APAC
+55023 For this company=> Google LLC
+6432 For this company=> Google Fiber Inc.
+
+ asns for sempra search 
+ 
+ 
+ asns for walmart search 
+ 
+ 10695 For this company=> Wal-Mart Stores, Inc.
+131558 For this company=> Wal-mart (China) Investment Co., Ltd.
+137806 For this company=> WMGS Consulting (Shenzhen) Co.Ltd
+17174 For this company=> Wal-Mart Stores, Inc.
+17374 For this company=> Wal-Mart Stores, Inc.
+26579 For this company=> Wal-Mart Stores, Inc.
+28551 For this company=> SERVICIOS ADMINISTRATIVOS WALMART S DE RL DE CV
+32851 For this company=> Wal-Mart Stores, Inc.
+394974 For this company=> Walmart Canada Corporation
+45101 For this company=> 2-5/F,Tower 2 and 1-12/F,Tower 3,SZITIC Square
+46312 For this company=> Wal-Mart Stores, Inc.
+46313 For this company=> Wal-Mart Stores, Inc.
+59049 For this company=> Wal-mart (China) Investment Co., Ltd.
+
+ asns for microsoft search 
+ 
+ 12076 For this company=> Microsoft Corporation
+13399 For this company=> Microsoft Corporation
+14271 For this company=> Proconex, Inc.
+14719 For this company=> Microsoft Corporation
+20046 For this company=> Microsoft Corporation
+23468 For this company=> Microsoft Corporation
+3598 For this company=> Microsoft Corporation
+395496 For this company=> Microsoft Corporation
+395524 For this company=> Microsoft Corporation
+395851 For this company=> Microsoft Corporation
+396463 For this company=> Microsoft Corporation
+398575 For this company=> Microsoft Corporation
+398656 For this company=> Microsoft Corporation
+400572 For this company=> Microsoft Corporation
+45139 For this company=> Microsoft Corp
+52985 For this company=> Microsoft do Brasil Imp. e Com. Software e Video G
+5761 For this company=> Microsoft Corporation
+6182 For this company=> Microsoft Corporation
+6584 For this company=> Microsoft Corporation
+8068 For this company=> Microsoft Corporation
+8069 For this company=> Microsoft Corporation
+8070 For this company=> Microsoft Corporation
+8071 For this company=> Microsoft Corporation
+8075 For this company=> Microsoft Corporation
+
+ asns for sony search 
+ 
+ 136817 For this company=> Sony Electronics (S) Pte. Ltd
+13720 For this company=> Daybreak Game Company LLC
+139808 For this company=> Sony Cyber Net
+19419 For this company=> Sony Pictures Entertainment Inc
+264625 For this company=> SANTA CRUZ AUGUSTO JULIAN (SONYTEL)
+3725 For this company=> Sony Pictures Technologies Inc.
+38258 For this company=> Sony - ASN for Asia Pacific
+56027 For this company=> Suite 3301, 33rd Floor
+9600 For this company=> So-net Corporation
+
+ asns for walmart search 
+ 
+ 10695 For this company=> Wal-Mart Stores, Inc.
+131558 For this company=> Wal-mart (China) Investment Co., Ltd.
+137806 For this company=> WMGS Consulting (Shenzhen) Co.Ltd
+17174 For this company=> Wal-Mart Stores, Inc.
+17374 For this company=> Wal-Mart Stores, Inc.
+26579 For this company=> Wal-Mart Stores, Inc.
+28551 For this company=> SERVICIOS ADMINISTRATIVOS WALMART S DE RL DE CV
+32851 For this company=> Wal-Mart Stores, Inc.
+394974 For this company=> Walmart Canada Corporation
+45101 For this company=> 2-5/F,Tower 2 and 1-12/F,Tower 3,SZITIC Square
+46312 For this company=> Wal-Mart Stores, Inc.
+46313 For this company=> Wal-Mart Stores, Inc.
+59049 For this company=> Wal-mart (China) Investment Co., Ltd.
+
+ asns for  Wal-Mart search 
+ 
+ 10695 For this company=> Wal-Mart Stores, Inc.
+131558 For this company=> Wal-mart (China) Investment Co., Ltd.
+137806 For this company=> WMGS Consulting (Shenzhen) Co.Ltd
+17174 For this company=> Wal-Mart Stores, Inc.
+17374 For this company=> Wal-Mart Stores, Inc.
+26579 For this company=> Wal-Mart Stores, Inc.
+28551 For this company=> SERVICIOS ADMINISTRATIVOS WALMART S DE RL DE CV
+32851 For this company=> Wal-Mart Stores, Inc.
+394974 For this company=> Walmart Canada Corporation
+45101 For this company=> 2-5/F,Tower 2 and 1-12/F,Tower 3,SZITIC Square
+46312 For this company=> Wal-Mart Stores, Inc.
+46313 For this company=> Wal-Mart Stores, Inc.
+59049 For this company=> Wal-mart (China) Investment Co., Ltd.
+
+ asns for Sadad Informatics Corp search 
+ 
+ 
+ asns for bmi.ir search 
+ 
+ 
+ asns for 89.235.64.67 search 
+ 
+ 

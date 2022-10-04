@@ -1,3 +1,110 @@
 
- Prefix for 185.188.104.1 search 
+ Prefix for  Wal-Mart search 
+ 
+103.114.236.0/22 For this company=> = WMGS Consulting (Shenzhen) Co.Ltd
+103.49.12.0/22 For this company=> = Wal-mart (China) Investment Co., Ltd.
+146.132.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+146.132.2.0/24 For this company=> = Wal-Mart Stores, Inc.
+146.132.2.0/23 For this company=> = Wal-Mart Stores, Inc.
+146.132.3.0/24 For this company=> = Wal-Mart Stores, Inc.
+148.250.0.0/16 For this company=> = SERVICIOS ADMINISTRATIVOS WALMART S DE RL DE CV
+156.84.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+156.85.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+156.86.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+156.86.192.0/18 For this company=> = Wal-Mart Stores, Inc.
+156.86.204.0/22 For this company=> = Wal-Mart Stores, Inc.
+156.87.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+156.88.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+156.89.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+156.89.0.0/22 For this company=> = Wal-Mart Stores, Inc.
+156.90.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+156.90.0.0/22 For this company=> = Wal-Mart Stores, Inc.
+156.91.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+156.92.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+156.93.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+156.93.192.0/23 For this company=> = Wal-Mart Stores, Inc.
+156.93.194.0/23 For this company=> = Wal-Mart Stores, Inc.
+156.93.196.0/23 For this company=> = Wal-Mart Stores, Inc.
+156.93.206.0/23 For this company=> = Wal-Mart Stores, Inc.
+156.93.208.0/23 For this company=> = Wal-Mart Stores, Inc.
+156.94.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+156.95.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+161.163.0.0/21 For this company=> = Wal-Mart Stores, Inc.
+161.163.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+161.163.176.0/21 For this company=> = Wal-Mart Stores, Inc.
+161.163.177.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.163.28.0/23 For this company=> = Wal-Mart Stores, Inc.
+161.163.44.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.164.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+161.164.0.0/14 For this company=> = Wal-Mart Stores, Inc.
+161.164.189.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.164.248.0/22 For this company=> = Wal-Mart Stores, Inc.
+161.164.254.0/23 For this company=> = Wal-Mart Stores, Inc.
+161.165.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+161.165.128.0/23 For this company=> = Wal-Mart Stores, Inc.
+161.165.130.0/23 For this company=> = Wal-Mart Stores, Inc.
+161.165.132.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.165.133.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.165.134.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.165.135.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.165.136.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.165.137.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.165.138.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.165.144.0/23 For this company=> = Wal-Mart Stores, Inc.
+161.165.148.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.165.150.0/23 For this company=> = Wal-Mart Stores, Inc.
+161.165.202.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.165.206.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.165.208.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.166.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+161.167.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+161.167.142.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.167.224.0/19 For this company=> = Wal-Mart Stores, Inc.
+161.167.252.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.168.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+161.168.0.0/13 For this company=> = Wal-Mart Stores, Inc.
+161.168.138.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.168.200.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.168.201.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.169.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+161.170.119.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.170.122.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.170.123.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.170.126.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.170.193.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.170.197.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.170.199.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.170.228.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.170.229.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.170.230.0/23 For this company=> = Wal-Mart Stores, Inc.
+161.170.232.0/23 For this company=> = Wal-Mart Stores, Inc.
+161.170.236.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.170.237.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.170.238.0/24 For this company=> = Wal-Mart Stores, Inc.
+161.170.240.0/22 For this company=> = Wal-Mart Stores, Inc.
+161.170.244.0/22 For this company=> = Wal-Mart Stores, Inc.
+161.170.248.0/22 For this company=> = Wal-Mart Stores, Inc.
+161.170.252.0/22 For this company=> = Wal-Mart Stores, Inc.
+161.171.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+161.172.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+161.173.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+161.174.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+161.174.0.0/23 For this company=> = Wal-Mart Stores, Inc.
+161.175.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+161.176.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+161.176.0.0/15 For this company=> = Wal-Mart Stores, Inc.
+161.177.0.0/16 For this company=> = Wal-Mart Stores, Inc.
+185.220.140.0/22 For this company=> = Wal-Mart Stores, Inc.
+43.229.216.0/24 For this company=> = Wal-mart (China) Investment Co., Ltd.
+43.229.216.0/22 For this company=> = Wal-mart (China) Investment Co., Ltd.
+43.229.217.0/24 For this company=> = Wal-mart (China) Investment Co., Ltd.
+43.229.218.0/23 For this company=> = Wal-mart (China) Investment Co., Ltd.
+
+ Prefix for Sadad Informatics Corp search 
+ 
+
+ Prefix for bmi.ir search 
+ 
+
+ Prefix for 89.235.64.67 search 
  
