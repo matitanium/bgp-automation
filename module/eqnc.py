@@ -88,11 +88,8 @@ def getTarget(type2):
 def ifip(ip):
     api = ("https://api.bgpview.io/ip/{i}").format(i=ip)
     print("======================================")
-    
-    
     string_output = requests.get(api).text
     json_output  = json.loads(string_output)
-    
     #read json status for find
     status = json_output["status"]
     if status =="error":
@@ -107,8 +104,6 @@ def ifip(ip):
     #perfix
     ifip.perfix= json_output["data"]["prefixes"][0]["prefix"]
     
-
-
 
 
 
@@ -146,42 +141,17 @@ def ifdomin(domain):
     print("======================================")
     string_output = requests.get(api).text
     json_output  = json.loads(string_output)
-    ifdomin.status = json_output["status"]
-    ifdomin.asns = json_output["data"]["asns"]
-    ifdomin.ip = json_output["data"]["ipv4_prefixes"]
- 
- 
-
-#search by company name
-def domain(search):
-    ifdomin(search)
-    if ifdomin.status =="error":
+    status = json_output["status"]
+    asns = json_output["data"]["asns"]
+    perfix = json_output["data"]["ipv4_prefixes"]
+    if status =="error":
         print("I Cant Find Your Query!  , Please Try again")
         sys.exit()
-    else: 
-        asns = []
-        asn_file= open("./information ghatering/asns.txt","a+")
-        ip = []
-        prefix = []
-        prefix_file = open("./information ghatering/prefix.txt","a+")
-        ifdomin(search)
-        asn_file.write("\n asns for {a} search \n \n ".format(a=search))
-        prefix_file.write("\n Prefix for {a} search \n \n".format(a=search))
-        for i in ifdomin.asns:
-            asns.append(str(i["asn"])+" For this company=> "+str(i["description"]))
-        asns = list(dict.fromkeys(asns))
-        for f in asns:
-            asn_file.write(f+"\n")
-        for i in ifdomin.ip:
-            ip.append(i["ip"])
-        ip = list(dict.fromkeys(ip)) 
-        for i in ifdomin.ip:
-            prefix.append(str(i["prefix"])+" For this company=> = "+str(i["description"]))
-            # parent_prefix.write(str(i['prefix'])+" decription =  "+str(i['description'])+"\n")
-        prefix = list(dict.fromkeys(prefix)) 
-        for f in prefix:
-            prefix_file.write(f+"\n") 
-        print(Fore.GREEN+"succesfully scanning... result in information ghathering directory")
-            
+    for i in perfix:
+        print(Fore.GREEN+i["prefix"],": ",i["description"])
+
+    print("====================")
+    print(asns)
+
 
 

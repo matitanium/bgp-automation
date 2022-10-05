@@ -198,3 +198,8 @@
  asns for 89.235.64.67 search 
  
  
+ asns for snapp search 
+ 
+ 11280 For this company=> SNAPPYDSL.NET
+29990 For this company=> AppNexus, Inc
+36805 For this company=> AppNexus Resources Inc.

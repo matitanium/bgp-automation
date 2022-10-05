@@ -27,7 +27,8 @@ value_to_search = getTarget.out
 
 
 if format_type=="domain":
-    domain(search=value_to_search)
+    ifdomin(value_to_search)
+
 
 elif format_type=="ip":
     ifip(value_to_search)
